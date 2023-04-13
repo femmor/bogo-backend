@@ -6,9 +6,9 @@ const Nav = () => {
   const { pathname } = useRouter();
 
   const inactiveLink =
-    'flex gap-2 text-gray-300 hover:text-blue-900 hover:bg-white rounded-l-lg p-2';
+    'flex gap-2 text-gray-300 hover:text-blue-900 hover:bg-white rounded-l-2xl p-2';
   const activeLink =
-    'flex gap-2 text-blue-900 bg-white rounded-l-lg p-2 hover:bg-white';
+    'flex gap-2 text-blue-900 bg-white rounded-l-2xl p-2 hover:bg-white';
 
   // Handles active link on click
   const handleActiveLink = path => {
